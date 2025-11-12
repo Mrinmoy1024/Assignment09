@@ -1,16 +1,42 @@
-# React + Vite
+GreenNest:
+GreenNest is a modern React.js & Firebase web application for plant lovers. Users can browse plants, view detailed information and book consultations. This app includes secure authentication using Google Sign-In
+----------------------------------------------------------------------------------------------------------------------------
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+  *Authentication
+    # Google authentication
+    # Password reset via email
+    # Private routes for logged-in users
+    # Displays user name, email, and profile picture
+  *User Profile
+    # Update profile photo and display name with "updateProfile()"
+    # Logout functionality
+    # Profile dropdown in Navbar - shows user info and logout button
+  *Plant Details Page (protected route)
+    #Displays plant info dynamically: Large image, name, description, price, rating, and stock
+    #Accessible only when logged in
+    #If unauthorized users detected then the page re-directs to login, then back after successful login
+  *Customer Reviews
+    #Displays a review section on the Home page
+    #Showcases customer experiences and feedback
+  *Navigation
+    #Shows "Register", "Login" when logged out
+    #Shows "Profile photo", "My Profile", and "Logout" when logged in
+  *Firebase Hosting
+    #Deployed with "Firebase Hosting"
+    #Fully responsive design built with Tailwind CSS and DaisyUI
+  ---------------------------------------------------------------------------------------------------------------------------
 
-Currently, two official plugins are available:
+  Techonology Used:
+    #React.js(Vite)
+    #Firebase Authentication
+    #Firebase Hosting
+    #React Router
+    #Tailwind CSS 
+    #DaisyUI
+    #React Toastify
+    #React Icons
+    #Context API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    repository link: https://github.com/Mrinmoy1024/Assignment09.git
+    live link: https://greennest-6d606.web.app/
