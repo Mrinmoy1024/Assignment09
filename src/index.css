@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.nav-link {
+  color: green;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  color: purple;
+  font-weight: bold;
+}
